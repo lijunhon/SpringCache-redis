@@ -85,3 +85,6 @@ public class RedisConfig {
 ```
 # 用法
 由于使用了swagger，浏览器访问 127.0.0.1:8080/swagger-ui.html#即可
+# SpringCache的坑
+1. 对于redis缓存，只支持string，对于hash,list等用redistemplate
+2. springcache不支持多表查询的数据缓存，只能用redistemplate
