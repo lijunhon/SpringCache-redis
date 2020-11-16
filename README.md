@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# SpringCache-redis
-SpringCache集成redis练习项目，此项目在springboot-redis-mybatis-swagger项目之后
-# 为什么要用springcache，它解决了什么问题
-
-# 常用缓存注解
-=======
 # 说明
 本项目是用springcache 和redis写的，主要用于实际项目中做参考
 # 为什么用springcache实现
@@ -92,4 +85,3 @@ public class RedisConfig {
 ```
 # 用法
 由于使用了swagger，浏览器访问 127.0.0.1:8080/swagger-ui.html#即可
->>>>>>> master
